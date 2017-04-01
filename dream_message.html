@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dream_message</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<nav>
+    <div class="w">
+        <a href="index%20(noloaded).html"><img src="images/logo.png" alt=""></a>
+        <ul>
+            <li><a href="browse-pro.html" class="active">项目浏览</a></li>
+            <li><a href="fnc_raund.html">投资人</a></li>
+            <li><a href="guideUser.html">用户引导</a></li>
+            <li><a href="aboutUs.html">关于我们</a></li>
+        </ul>
+        <div class="load-box">
+            <a href="load.html" class="load">登录</a>
+            <a href="load.html" class="register">创建账户</a>
+        </div>
+    </div>
+</nav>
+<div class="dream-msg-content">
+        <div class="w clearfix">
+            <div class="save">
+                <ul>
+                    <li class="save-choose">发起梦想</li>
+                    <li>股权项目</li>
+                </ul>
+                <div>
+                    <a href="javascript:void(0);">发布预览</a>
+                    <a href="javascript:void(0);">保存</a>
+                </div>
+            </div>
+            <div class="dream-msg div-show">
+                <h2>梦想发起·基本信息</h2>
+                <div class="dream-line"></div>
+                <form action="">
+                    <div class="dream-form-group clearfix">
+                        <span>上传头像</span>
+                        <label class="head-box" for="head"><input type="file" style="display:none;" id="head"></label>
+                        <s>*</s>
+                        <em>图片大小请勿超过1MB<br>尺寸：500px高300px，支持JPG，PNG</em>
+                    </div>
+                    <div class="dream-form-group clearfix">
+                        <span>项目名称</span>
+                        <input type="text" placeholder="请输入项目名称">
+                        <s>*</s>
+                    </div>
+                    <div class="dream-form-group clearfix">
+                        <span>项目简介</span>
+                        <textarea name="" placeholder="请简要描述项目的目标、定位。尽量简短，能给投资人留下深刻的印象"></textarea>
+                        <s>*</s>
+                    </div>
+                    <div class="dream-form-group clearfix">
+                        <span>所在城市</span>
+                        <div id="provinceBtn">
+                            请选择城市
+                            <div id="province">
+                                <ul>
+                                    <li class="dream-form-group-li">省份</li>
+                                    <li>城市</li>
+                                </ul>
+                                <table>
+                                    <tr>
+                                        <td class="td-choose">北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                    </tr>
+                                    <tr>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                    </tr>
+                                    <tr>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                        <td>北京市</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <s>*</s>
+                    </div>
+                    <div class="dream-form-group clearfix">
+                        <span>所处阶段</span>
+                        <select name="">
+                            <option value="">请选择项目阶段</option>
+                            <option value="">产品开发中</option>
+                            <option value="">产品已上线或已上市</option>
+                            <option value="">已有收入</option>
+                            <option value="">已投盈利</option>
+                            <option value="">尚未启动</option>
+                        </select>
+                        <s>*</s>
+                    </div>
+                    <div class="dream-form-group clearfix">
+                        <span>所属行业</span>
+                        <i id="labelBox">
+                            <label for="industry-1"><input type="checkbox" id="industry-1">PC互联网</label>
+                            <label for="industry-2"><input type="checkbox" id="industry-2">移动互联网</label>
+                            <label for="industry-3"><input type="checkbox" id="industry-3">IT软件/硬件</label>
+                            <label for="industry-4"><input type="checkbox" id="industry-4">服务业</label>
+                            <label for="industry-5"><input type="checkbox" id="industry-5">文化创意</label>
+                            <label for="industry-6"><input type="checkbox" id="industry-6">节能环保</label>
+                            <label for="industry-7"><input type="checkbox" id="industry-7">新能源</label>
+                            <label for="industry-8"><input type="checkbox" id="industry-8">新能源</label>
+                            <label for="industry-9"><input type="checkbox" id="industry-9">生物医药</label>
+                            <label for="industry-10"><input type="checkbox" id="industry-10">其他</label>
+                        </i>
+                    </div>
+                    <div class="dream-form-group clearfix">
+                        <span>团队人数</span>
+                        <input type="text" placeholder="请输入团队人数">
+                        <s>*</s>
+                    </div>
+                    <button type="submit">保存，下一步</button>
+                </form>
+            </div>
+            <div class="dream-msg">
+                <h2>梦想发起·项目内容</h2>
+                <div class="dream-line"></div>
+                <form action="">
+                    <div class="box-1 clearfix">
+                        <div class="write-box"></div>
+                        <span>项目描述</span>
+                    </div>
+                    <div class="box-1 clearfix">
+                        <div class="write-box"></div>
+                        <span>项目描述</span>
+                    </div>
+                    <div class="dre-group-2">
+                        <div class="area-box">
+                            <label for="up-file-x"><input type="file" id="up-file-x" style="display:none;">上传扫描件</label>
+                            <p class="dre-hint">提示：请上传pdf格式文件，大小限制在10M之内</p>
+                        </div>
+                        <span>组织结构代码证扫描件</span>
+                    </div>
+                    <div class="btn-box">
+                        <button>上一步</button>
+                        <button>保存,下一步</button>
+                    </div>
+                </form>
+            </div>
+            <div class="dream-msg">
+                <h2>梦想发起·团队架构</h2>
+                <div class="dream-line"></div>
+                <form action="">
+                    <div class="plan clearfix">
+                        <label>商业计划</label>
+                        <textarea></textarea>
+                    </div>
+                    <div class="partner-box">
+                        <p>添加团队成员</p>
+                    </div>
+                    <div class="btn-box">
+                        <button>上一步</button>
+                        <button>保存,下一步</button>
+                    </div>
+                </form>
+            </div>
+            <div class="dream-msg">
+                <h2>商业计划</h2>
+                <div class="dream-line"></div>
+                <form action="">
+                    <div class="plan">
+                        <label>商业计划</label>
+                        <span>
+                            <label for="upload"><input type="file" style="display: none;" id="upload">点击上传商业计划书</label>
+                            <p>提示：请上传pdf格式文件，大小限制在10M之内</p>
+                        </span>
+                    </div>
+                    <div class="btn-box">
+                        <button>上一步</button>
+                        <button>保存,下一步</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="dream-msg">
+                <h2>梦想发起·融资计划</h2>
+                <div class="dream-line"></div>
+                <form action="">
+                    <div class="plan">
+                        <div>
+                            <label for="la-1">项目估值</label>
+                            <input type="text" id="la-1">
+                        </div>
+                        <div>
+                            <label for="la-2">融资目标</label>
+                            <input type="text" id="la-2">
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="plan-div-fl">
+                            <label for="la-3">出让股权</label>
+                            <input type="text" id="la-3">
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div>
+                            <label for="la-4">最低跟投额</label>
+                            <input type="text" id="la-4">
+                        </div>
+                        <div>
+                            <label for="la-5">最高跟投额</label>
+                            <input type="text" id="la-5">
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div>
+                            <label for="la-6">最低领投额度</label>
+                            <input type="text" id="la-6">
+                        </div>
+                        <div>
+                            <label for="la-7">额度加价幅度</label>
+                            <input type="text" id="la-7">
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div>
+                            <label>是否允许超募</label>
+                            <input type="radio" name="yes" class="radio">是
+                            <input type="radio" name="yes" class="radio">否
+                        </div>
+                        <div>
+                            <label for="la-8">超募比例</label>
+                            <input type="text" id="la-8">
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <button>发布预览</button>
+                        <button>确定提交审核</button>
+                    </div>
+                </form>
+            </div>
+            <div class="dream-msg">
+                <h2>提交项目</h2>
+                <p class="dream-verify">我们需要验证企业的真实信息，请如实填写。</p>
+                <div class="dream-line"></div>
+                <form action="">
+                    <div class="dre-group clearfix">
+                        <input type="text" placeholder="请输入企业名称" class="dre-txt">
+                        <span>企业名称</span>
+                    </div>
+                    <div class="dre-group clearfix">
+                        <input type="text" placeholder="请输入企业营业执照注册号" class="dre-txt">
+                        <span>营业执照注册号</span>
+                    </div>
+                    <div class="dre-group clearfix">
+                        <input type="text" placeholder="请输入企业注册地点" class="dre-ipt">
+                        <span class="dre-reg">注册地点</span>
+                        <input type="text" placeholder="请输入企业法定代表人" class="dre-ipt">
+                        <span>法定代表人</span>
+                    </div>
+                    <div class="dre-group clearfix">
+                        <input type="text" placeholder="请输入企业成立日期" class="dre-ipt">
+                        <span class="dre-reg">成立日期</span>
+                        <input type="text" value="0" class="dre-ipt">
+                        <span>注册资本</span>
+                    </div>
+                    <div class="dre-group clearfix">
+                        <input type="text" placeholder="请输入项目联系人手机号" class="dre-ipt">
+                        <span class="dre-reg">联系电话</span>
+                        <input type="text" placeholder="请输入联系人姓名" class="dre-ipt">
+                        <span>联系人</span>
+                    </div>
+                    <div class="dre-group-2">
+                        <div class="area-box">
+                            <label for="up-file-1"><input type="file" id="up-file-1" style="display:none;">上传扫描件</label>
+                        </div>
+                        <span>营业执照扫描件</span>
+                    </div>
+                    <div class="dre-group-2">
+                        <div class="area-box">
+                            <label for="up-file-2"><input type="file" id="up-file-2" style="display:none;">上传扫描件</label>
+                        </div>
+                        <span>组织结构代码证扫描件</span>
+                    </div>
+                    <div class="dre-group-2">
+                        <div class="area-box">
+                            <label for="up-file-3"><input type="file" id="up-file-3" style="display:none;">上传扫描件</label>
+                        </div>
+                        <span>税务登记证扫描件</span>
+                    </div>
+                    <div class="dre-group-2">
+                        <div class="area-box">
+                            <label for="up-file-4"><input type="file" id="up-file-4" style="display:none;">上传扫描件</label>
+                        </div>
+                        <span>承诺书扫描件</span>
+                    </div>
+                    <div class="btn-box">
+                        <button>发布预览</button>
+                        <button>确认提交审核</button>
+                    </div>
+                </form>
+            </div>
+            <ul class="dream-msg-list">
+                <li class="dream-msg-li-choose"><i class="iconfont">&#xe695;</i> 基本信息</li>
+                <li><i class="iconfont">&#xe837;</i> 项目内容</li>
+                <li><i class="iconfont">&#xe7ab;</i> 团队架构</li>
+                <li><i class="iconfont">&#xe83f;</i> 商业计划</li>
+                <li><i class="iconfont">&#xe797;</i> 融资计划</li>
+                <li><i class="iconfont">&#xe8bc;</i> 提交项目</li>
+            </ul>
+        </div>
+</div>
+
+<div class="dream-msg-bg">
+    <div class="alert-box">
+        <h2>增加团队成员信息</h2>
+        <div class="dream-msg-line"></div>
+        <form action="">
+            <div class="form-box-1 clearfix">
+                <span>上传头像</span>
+                <label for="dream-head-pic"><input type="file" id="dream-head-pic" style="display: none;"></label>
+                <p>图片大小请勿超过1MB，长宽比1:1，正方形<br>支持JPG，PNG</p>
+            </div>
+            <div class="form-box-2 clearfix">
+                <input type="text" placeholder="请输入成员职务"><span>职务</span>
+                <input type="text" placeholder="请输入姓名"><span>姓名</span>
+            </div>
+            <div class="form-box-3 clearfix">
+                <span>一句话简介</span>
+                <input type="text" placeholder="如:职称/荣誉/学历">
+            </div>
+            <div class="form-box-4 clearfix">
+                <span>个人简介</span>
+                <textarea placeholder="请填写成员的个人介绍以及工作经历"></textarea>
+            </div>
+            <div class="form-box-5 clearfix">
+                <span>是否是股东成员</span>
+                <label for="ok-1"><input type="radio" name="oo-1" id="ok-1">是</label>
+                <label for="no-1"><input type="radio" name="oo-1" id="no-1">否</label>
+            </div>
+            <div class="form-box-3 clearfix">
+                <span>与创始人关系</span>
+                <input type="text" placeholder="如：同事/朋友/合作伙伴">
+            </div>
+            <div class="form-box-5 clearfix">
+                <span class="all-work">是否全职</span>
+                <label for="ok-2"><input type="radio" name="oo-2" id="ok-2">是</label>
+                <label for="no-2"><input type="radio" name="oo-2" id="no-2">否</label>
+            </div>
+            <div class="dream-btn-box">
+                <button id="dreamCancle">取消</button>
+                <button type="submit">保存</button>
+            </div>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="w clearfix load-about">
+        <div class="footer-box-1"><img src="images/footer-logo.jpg" alt=""><span>雏鹰网</span><p><img src="images/footer-wechat.jpg" alt=""><img src="images/footer-sina.jpg" alt=""></p></div>
+        <ul>
+            <span>现在开始</span>
+            <li><a href="javascript:void(0);">梦想出发</a></li>
+            <li><a href="javascript:void(0);">账号注册</a></li>
+            <li><a href="javascript:void(0);">账号登录</a></li>
+        </ul>
+        <ul>
+            <span>项目浏览</span>
+            <li><a href="javascript:void(0);">趋势</a></li>
+            <li><a href="javascript:void(0);">已完成</a></li>
+            <li><a href="javascript:void(0);">新的值得关注的</a></li>
+            <li><a href="javascript:void(0);">微信群</a></li>
+        </ul>
+        <ul>
+            <span>关于我们</span>
+            <li><a href="javascript:void(0);">FAQ</a></li>
+            <li><a href="javascript:void(0);">用户引导</a></li>
+            <li><a href="javascript:void(0);">联系我们</a></li>
+        </ul>
+        <ul>
+            <span>法律</span>
+            <li><a href="javascript:void(0);">法律条款</a></li>
+            <li><a href="javascript:void(0);">隐私政策</a></li>
+        </ul>
+        <div class="code-box">
+            扫码关注微信公众平台
+        </div>
+    </div>
+    <div class="w footer-text-box">
+        <p>Fundable is a software as a service crowdfunding platform. Fundable is not a registered broker-dealer and does not offer investment advice or advise on the raising of capital through securities offerings. Fundable does not recommend or otherwise suggest that any investor make an investment in a particular company, or that any company offer securities to a particular investor. Fundable takes no part in the negotiation or execution of transactions for the purchase or sale of securities, and at no time has possession of funds or securities. No securities transactions are executed or negotiated on or through the Fundable platform. Fundable receives no compensation in connection with the purchase or sale of securities.</p>
+        <p class="footer-text">Copyright © Fundable LLC 2016. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+<script src="lib/jquery-3.1.1.min.js"></script>
+<script src="app/index.js"></script>
